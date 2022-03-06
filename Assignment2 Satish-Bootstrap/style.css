@@ -1,0 +1,197 @@
+*{
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+    font-family: Poppins;
+}
+body{
+    background-color: #fbfbfb;
+}
+
+.bcg-img{
+    background-image: linear-gradient(to top, rgba(157, 14, 14, 0), #4f0707), url(./Images1920–1/Slider@2x.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    background-attachment: fixed;
+    opacity: 1;
+    background-position: center;
+}
+ul{
+    margin-top:  10px;
+    padding-top: 15px;
+
+}
+ul li{
+list-style-type: none;
+color: #fff;
+display: inline;
+}
+/* .account{
+    margin: 20px;
+    border:1px solid #fff;
+    border-radius: 3px;
+    opacity: 1;
+    padding:5px 10px;
+} */
+.login, .cacount{
+color: #fff;
+text-decoration: none;
+}
+.cacount    {
+        border: 1px solid #fff;
+        border-radius: 5px;
+    }
+    .login:hover, .cacount:hover   
+        {
+        color: #fff;
+            }
+    .cacount:hover{
+        background-color: #EB2929;
+    }
+.logo{
+    color: #EB2929;
+    display: inline;
+    font-size: 50px;
+    font-weight: 600;
+    /* width: 97PX;
+    height: 99PX; */
+    opacity: 100%;
+    background-color: #fff;
+    border-radius: 50%;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-position-x: center;
+    background-position-y:center; */
+    /* margin: 30px 550px; */
+    border: 1px solid #707070;
+}
+.rest-head{
+    color: #FFF;
+    font-size: 36px;
+    /* font-family: Poppins; */
+    font: normal normal 600 36px/55px Poppins;
+    /* opacity: 1; */
+    text-align: center;
+}
+.search-location{
+    width: 100%;
+/* height: 21px; */
+/* top: 339px;
+left: 312px; */
+/* width: 300px; */
+height: 60px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.RestSelector
+{
+    
+/* width: 450px; */
+height: 60px;
+position: relative;
+}
+/* .locationDropdown, .restaurantsinput{
+    font-size: 15px;
+    color: #636f88;
+}
+.restaurantSelector{
+    position: relative;
+} */
+.search-icon{
+    width: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 18px;
+    color: #74819E ; 
+    /* #636f88 */
+}
+.restaurantsInput{
+    /* top: 339px;
+left: 578px; */
+/* margin-left: 20px; */
+width: 100%;
+height: 60px;
+/* background: #FFFFFF 0% 0% no-repeat padding-box; */
+opacity: 1;
+}
+/* .Search-row {
+    display: inline;
+} */
+
+
+
+/* down part */
+
+.quick-search{
+    font-size: 30px;
+    font: normal normal bold 30px/46px Poppins;
+    /* font-weight: 900; */
+    color: #192f60;
+}
+.discover-rest {
+font: normal normal normal 18px/27px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+}
+
+.card{
+width: 340px;
+/* height: 160px; */
+box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%); /*rgb(0, 0, 0,  0.16);*/
+/* background: #FFFFFF 0% 0% no-repeat padding-box; */
+/* box-shadow: 0px 3px 6px #00000029; */
+background-color: #fbfbfb;
+border: none;
+border-radius: 0;
+}
+/* .col-6{
+flex: 0 0 auto;
+    /* width:50%;
+} */
+.card-img{
+    width: 100%;
+    height: 100%;
+    /* height: 160px; */
+    /* border:none; */
+    border-radius: 0;
+}
+.card-title{
+font: normal normal 600 18px/27px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+text-align: left;
+}
+.card-description {
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #8C96AB;
+opacity: 1;
+text-align: left;
+padding-bottom: 10px;
+}
+.btn{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* Mobile :first */
+@media only screen and (max-width:300px) {
+    .login-acc-row{
+        display:none;
+    }
+    /* .createacc, .login{
+        font-size: 15px;
+    } */
+}
+
+@media only screen and (min-width: 768px) {
+    .logo{
+        font-size: 50px;
+    }
+    .restaurant-title{
+        font-size: 36px;
+    }
+}
